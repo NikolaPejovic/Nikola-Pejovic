@@ -4,192 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nikola Pejovic 18/011</title>
+    <title>RENT A CAR</title>
 </head>
-<body>
-    <h1>Nikola Pejovic 18/011</h1>
-    <h2>Ovo je prvi podnaslov tipa h2</h2>
-    <div>
-    <p align= "right">sve sto se vidi na stranici i jos po nesto</p>
-    <br />
-    <br />
-    <br />
-    <p align= "left">ovo je drugi p tag</p>
-    </div>
-    <h2>Ovo je drugi podnaslov tipa h2</h2>
-
-    <ul type="circle">
-        <li>prva stvar</li>
-        <li>druga stvar</li>
-        <li>treca stvar</li>
-    </ul>
-    <ol>
-        <li>prva stvar</li>
-        <li>druga stvar</li>
-        <li>treca stvar</li>
-    </ol>
-    <ol type="1" start="11">
-        <li>prva stvar</li>
-        <li>druga stvar</li>
-        <li>treca stvar</li>
-    </ol>
-    <dl>
-        <dt>stavka 1</dt>
-            <dd>opis stavke 1</dd>
-        <dt>stavka 2</dt>
-            <dd>opis stavke 2</dd>
-    </dl>
-    <img src="slika1.jpg" width="200" align="right" alt="" title="Joker" border="3"/></br></br>
-    <A HREF="https://www.udg.edu.me">Ovo je link do sajta UDG</A> </br></br>
-    <a href="https://www.cdm.me"><img src=cdm.png></a></br></br>
-    <a href="
-    mailto:pejovicn99@gmail.com?
-    subject=tekst poruka&body=napisi mail">kontakt mail</a></br></br>
-
-    <table width="600" height="400" border="1" cellspacing="0" bgcolor="red">
-        <tr>
-            <th>11</th>
-            <th>12</th>
-            <th>13</th>
-        </tr>
-        <tr align="center"> 
-            <td colspan="2">1</td>
-            <td>3</td>
-
-        </tr>
-        <tr align="right">
-            <td bgcolor="#f4f4f4">4</td>
-            <td>5</td>
-            <td>6</td>
-        </tr>
-        <tr align="left">
-            <td>7</td>
-            <td>8</td>
-            <td>9</td>
-        </tr>
-
-    </table></br></br>
-    <form action=""method="post">
-        <label>ovdje unesite ime</label></br></br>
-        <input type="text" name="ime" value="ime"/></br></br>
-        <label>ovdje unesite prezime</label></br></br>
-        <input type="text" name="prezime" value="prezime" /></br></br>
-        <input type="radio" name="pol" value="muski">muski<br></br>
-        <input type="radio" name="pol" value="zenski">zenski<br></br>
-        <label>odaberite kolicinu</label></br></br>
+<body bgcolor="gray">
+    <h1 align="center">RENT A CAR</h1>
+    <label>ovdje unesite ime</label></br></br>
+    <input type="text" name="ime" /></br></br>
+    <label>ovdje unesite prezime</label></br></br>
+    <input type="text" name="prezime" /></br></br>
+    <label>Unestie broj godina</label>
+    <input type="number" name="quantity" min="21" max="70"></br></br>
+    <input type="radio" name="pol" value="muski">muski<br></br>
+    <input type="radio" name="pol" value="zenski">zenski<br></br>
+    <label>Broj vozaca</label></br></br>
         <input type="checkbox">1</br></br>
         <input type="checkbox">2</br></br>
         <input type="checkbox">3</br></br>
-
+     <label>Izaberite automobil</label></br></br>
         <select size="4">
-            <option>1</option>
-            <option>2</option>
-            <option>plava</option>
-            <option>zuta</option>
-        </select>
-        <br/><br/>
-        <textarea rows="6" cols="80"> Napisite komentar:</textarea></br></br>
-
-        <input type="submit" name="posalji" value="posalji">
-        <input type="reset" name="ponisti" value="ponisti">
-
-    </form>
-
-  
-    <audio controls autoplay> <br></br>
-
-        <source src="web.mp3" type="audio/mp3">
-
-    </audio>
+            <option>Renault clio</option>
+            <option>Mercedes A class</option>
+            <option>Audi A3</option>
+            <option>Mazda 2</option>
+        </select></br></br>
+    <label>Izaberite broj dana rentiranja:</label>
+        <input type="number" name="quantity" min="1" max="60"></br></br>
+        <label>Izaberite datum preuzimanja vozila</label><br></br>
+        <input type="date" name="datum"><br></br>
+    <img src="renault clio.jpg" alt="Renault clio" width="700" height="600" >
+    <img src="Merc A-class.jpg" alt="Mercedes A class" width="700" height="600">
+    <img src="audi a3.jpg" alt="Audi A3" width="700" height="600">
+    <img src="mazda 2.jpg" alt="Mazda 2"width="700" height="600">
     <br></br>
-    <video controls width="400" height="400"> 
-        <source src="sanja.mp4" type="video/mp4">
-    </video>
+    <a href="cjenovnik.html" target="_blank">Cjenovnik</a> <br></br>
+    <a href="
+    mailto:pejovicn99@gmail.com?
+    subject=tekst poruka&body=napisi mail">Kontakt mail</a></br></br>
+    <textarea rows="6" cols="80"> Napisite komentar:</textarea></br></br>
+    <input type="submit" name="posalji" value="posalji">
 
-    <form>
-        <input type="email">
-        <input type="submit" value="go">
-        <br /> <br />
-        <input type="number" name="quantity" min="1" max="5">
-        <br /> <br />
-        <input type="number" name="points" min="0" max="100" step="10" value="30">
-        <br /> <br />
-        <input type="date" name="bday">
-        <br /> <br />
-        <input type="color" name="favcolor">
-        <br /> <br />
-        <input type="range" name="points" min="0" max="100">
-
-    </form>
-
-    <figure>
-        <img src="slika1.jpg" alt="Joker">
-        <figcaption>heath ledger
-            <a href="https://en.wikipedia.org/wiki/Joker_(The_Dark_Knight)">wikipedia</a>
-        </figcaption>
-    </figure>
-
-    <selection>
-        <h2>WWF</h2>
-        <p>The World Wide Fund for Nature (WWF)</p>
-    </selection>
-
-    <aside>
-        <h4>Epcot Center</h4>
-        <p>the Epcot Center is a theme park in Disneyland World, Florida</p>
-    </aside>
-
-    <details>
-        <summary>Copyright 1999-2014.</summary>
-        <p>-by Refsnes data. All rights reserved</p>
-        <p>All content is property of the company Refsnes Data</p>
-    </details>
-    <br></br>
-
-    <table>
-        <thead>
-            <tr>
-                <th>name</th>
-                <th>aisle</th>
-                <th>price</th>
-                <th>quantity</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>bread</td>
-                <td>2</td>
-                <td>3.00$</td>
-                <td>1</td>
-        </tr>
-        <tr>
-            <td>Milk</td>
-            <td>1</td>
-            <td>2.50$</td>
-            <td>2</td>
-        </tr>
-    
-    </tbody>
-    <tfoot>
-        <tr>
-            <th>total</th>
-            <th>N/A</th>
-            <th>5.50$</th>
-            <th>2</th>
-        </tr>
-    </tfoot>
-    </table>
-
-
-
-
-
-
-    <!---komentar-->
-    
-
-
-
-    
 </body>
 </html>
